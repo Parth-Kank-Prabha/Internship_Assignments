@@ -51,15 +51,31 @@
 
 # Challenge 14: Create a class Product. Initialize product_id, product_name, and price. Create multiple products and print details.
 
-class Product:
-    def __init__(self,product_id,product_name,price):
-        self.product_id=product_id
-        self.product_name=product_name
-        self.price=price
+# class Product:
+#     def __init__(self,product_id,product_name,price):
+#         self.product_id=product_id
+#         self.product_name=product_name
+#         self.price=price
 
-    def display(self):
-        print("Product ID:",self.product_id)
-        print("Product Name:",self.product_name)
-        print("Product Price:",self.price)
-s1=Product(123,"Car",120000)
-s1.display()
+#     def display(self):
+#         print("Product ID:",self.product_id)
+#         print("Product Name:",self.product_name)
+#         print("Product Price:",self.price)
+# s1=Product(123,"Car",120000)
+# s1.display()
+
+#Challenge 15: Create a class College. Initialize college_name, city, and students_count. Display details using objects.
+
+# class College:
+#     def __init__(self,clg_name,city,stud_count):
+#         self.clg_name=clg_name
+#         self.city=city
+#         self.stud_count=stud_count
+
+#     def display(self):
+#         print("College Name:",self.clg_name)
+#         print("City Name:",self.city)
+#         print("Student Count:",self.stud_count)
+
+# s1=College("Zeal College","Pune",69)
+# s1.display()
